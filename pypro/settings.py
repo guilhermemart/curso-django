@@ -136,9 +136,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 COLLECTFAST_ENABLED = False
 
 # Extra places for collectstatic to find static files.
-#STATICFILES_DIRS = (
+# STATICFILES_DIRS = (
 #    os.path.join(BASE_DIR, 'static'),
-#)
+# )
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 
@@ -147,7 +147,7 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 if AWS_ACCESS_KEY_ID:
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
-    AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age-86400',}
+    AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age-86400', }
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
