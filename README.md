@@ -1,5 +1,5 @@
-# libpythonpro
-Projeto didático
+# Curso-Django
+# Projeto didático python.pro.br
 
 Travis
 [![Build Status](https://travis-ci.org/guilhermemart/libpythonpro.svg?branch=master)](https://travis-ci.org/guilhermemart/curso-django)
