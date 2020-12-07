@@ -28,3 +28,4 @@ script:
 
 after_sucess:
   - pipenv run codecov
+  - bash <(curl -s https://codecov.io/bash)
