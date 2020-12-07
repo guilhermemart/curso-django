@@ -11,4 +11,4 @@ Pyup
 #CodeCov
 [![codecov](https://codecov.io/gh/guilhermemart/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/guilhermemart/curso-django)
 
-# Linkado projeto github com Heroku
+
